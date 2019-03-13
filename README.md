@@ -40,7 +40,7 @@ ie.
 adb-reset-a(){
 	adb-reset com.sh.android
 }
-``
+```
 
 # Examples
 Connects a device and install the app.
