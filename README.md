@@ -28,6 +28,12 @@ adb-stop(){
 	adb shell am force-stop $1
 }
 
+//restarts the adb - Use this command if Android Studio having a trouble detecting your device.
+adb-restart-server() {
+	adb kill-server
+	adb devices
+}
+
 To delete all local branches that are already merged into the currently checked out branch:
 //This will delete all local branches that have been merged and skip deleteing master and dev branch
 git-cleanup() {
