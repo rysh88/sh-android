@@ -28,6 +28,8 @@ adb-stop(){
 	adb shell am force-stop $1
 }
 
+To delete all local branches that are already merged into the currently checked out branch:
+//This will delete all local branches that have been merged and skip deleteing master and dev branch
 git-cleanup() {
 	git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d
 }
