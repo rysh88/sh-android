@@ -4,7 +4,7 @@ This repo contains a collection of useful shell scripts for Android Developer
 # Get Started
 Mac
 1. Open up your `~/.bash_profile` or create a file if one doesn't exist
-2. Define add a export command for `ANDROID_HOME` and replace "USER_NAME" with your macbook username
+2. Define `ANDROID_HOME` as the following and replace "USER_NAME" with your macbook username
 `export ANDROID_HOME=/Users/"USER_NAME"/Library/Android/sdk`
 3. Add the following lines
 ```
